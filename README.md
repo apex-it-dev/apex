@@ -1,2 +1,3 @@
-# aces
-project made by soft dev team abacare
+# AbaCare Employee System - ACES
+
+Human resource information system

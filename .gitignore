@@ -1,0 +1,25 @@
+# exclude other profile picture, except defaults
+img/ees/*
+!img/ees/default.*
+
+# exclude files to lessen storage
+upload/applicants/*.*
+!upload/applicants/.placeholder
+
+upload/certification_attachment_files/*.*
+!upload/certification_attachment_files/.placeholder
+
+upload/leave_attachment_files/*.*
+!upload/leave_attachment_files/.placeholder
+
+upload/tmp/*.*
+!upload/tmp/.placeholder
+
+# ignore configs since they will be automated in server
+api/models/database.php
+inc/config.php
+js/config.js
+
+
+# exclude nodejs files
+node_modules/
