@@ -1,0 +1,38 @@
+.__NAMESPACE_PREFIX__-tooltip.material-theme {
+  background-color: #505355;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.__NAMESPACE_PREFIX__-tooltip.material-theme[data-placement^='top'] > .__NAMESPACE_PREFIX__-arrow {
+  border-width: 8px 8px 0;
+  border-top-color: #505355;
+}
+
+.__NAMESPACE_PREFIX__-tooltip.material-theme[data-placement^='bottom'] > .__NAMESPACE_PREFIX__-arrow {
+  border-width: 0 8px 8px;
+  border-bottom-color: #505355;
+}
+
+.__NAMESPACE_PREFIX__-tooltip.material-theme[data-placement^='left'] > .__NAMESPACE_PREFIX__-arrow {
+  border-width: 8px 0 8px 8px;
+  border-left-color: #505355;
+}
+
+.__NAMESPACE_PREFIX__-tooltip.material-theme[data-placement^='right'] > .__NAMESPACE_PREFIX__-arrow {
+  border-width: 8px 8px 8px 0;
+  border-right-color: #505355;
+}
+
+.__NAMESPACE_PREFIX__-tooltip.material-theme > .__NAMESPACE_PREFIX__-content {
+  padding: 4px 7px;
+}
+
+.__NAMESPACE_PREFIX__-tooltip.material-theme > .__NAMESPACE_PREFIX__-backdrop {
+  background-color: #505355;
+}
+
+.__NAMESPACE_PREFIX__-tooltip.material-theme > .__NAMESPACE_PREFIX__-svg-arrow {
+  fill: #505355;
+}
+/*# sourceMappingURL=material.css.map */

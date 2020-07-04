@@ -1,0 +1,27 @@
+#attendance .attendance_filter {
+  background-color: #5a5c69;
+  color: white;
+  font-weight: bolder;
+}
+
+#kpistyle {
+  /* color: #588BAE; */
+  background: -webkit-gradient(linear, left top, left bottom, from(#E94057), to(#F27121));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.accordion-style {
+  border-bottom: groove;
+}
+
+#headingKpi {
+  background-color:#5a5c69;
+  height:40px !important; 
+  font-size:1rem !important; 
+  cursor: pointer;
+}
+
+#headingKpi::after {
+  top: -5px !important;
+}

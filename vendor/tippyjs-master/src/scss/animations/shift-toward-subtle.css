@@ -1,0 +1,24 @@
+.__NAMESPACE_PREFIX__-tooltip[data-animation='shift-toward-subtle'][data-placement^='top'][data-state='hidden'] {
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+}
+
+.__NAMESPACE_PREFIX__-tooltip[data-animation='shift-toward-subtle'][data-placement^='bottom'][data-state='hidden'] {
+  -webkit-transform: translateY(5px);
+          transform: translateY(5px);
+}
+
+.__NAMESPACE_PREFIX__-tooltip[data-animation='shift-toward-subtle'][data-placement^='left'][data-state='hidden'] {
+  -webkit-transform: translateX(-5px);
+          transform: translateX(-5px);
+}
+
+.__NAMESPACE_PREFIX__-tooltip[data-animation='shift-toward-subtle'][data-placement^='right'][data-state='hidden'] {
+  -webkit-transform: translateX(5px);
+          transform: translateX(5px);
+}
+
+.__NAMESPACE_PREFIX__-tooltip[data-animation='shift-toward-subtle'][data-state='hidden'] {
+  opacity: 0;
+}
+/*# sourceMappingURL=shift-toward-subtle.css.map */

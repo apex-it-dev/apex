@@ -1,0 +1,89 @@
+.__NAMESPACE_PREFIX__-tooltip[data-animation='fade'][data-state='hidden'] {
+  opacity: 0;
+}
+
+.__NAMESPACE_PREFIX__-iOS {
+  cursor: pointer !important;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.__NAMESPACE_PREFIX__-popper {
+  pointer-events: none;
+  max-width: calc(100vw - 10px);
+  -webkit-transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+          transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+}
+
+.__NAMESPACE_PREFIX__-tooltip {
+  position: relative;
+  color: white;
+  border-radius: 4px;
+  font-size: 14px;
+  line-height: 1.4;
+  background-color: #333;
+  -webkit-transition-property: visibility, opacity, -webkit-transform;
+  transition-property: visibility, opacity, -webkit-transform;
+  transition-property: visibility, opacity, transform;
+  transition-property: visibility, opacity, transform, -webkit-transform;
+  outline: 0;
+}
+
+.__NAMESPACE_PREFIX__-tooltip[data-placement^='top'] > .__NAMESPACE_PREFIX__-arrow {
+  border-width: 8px 8px 0;
+  border-top-color: #333;
+  margin: 0 3px;
+  -webkit-transform-origin: 50% 0%;
+          transform-origin: 50% 0%;
+  bottom: -7px;
+}
+
+.__NAMESPACE_PREFIX__-tooltip[data-placement^='bottom'] > .__NAMESPACE_PREFIX__-arrow {
+  border-width: 0 8px 8px;
+  border-bottom-color: #333;
+  margin: 0 3px;
+  -webkit-transform-origin: 50% 7px;
+          transform-origin: 50% 7px;
+  top: -7px;
+}
+
+.__NAMESPACE_PREFIX__-tooltip[data-placement^='left'] > .__NAMESPACE_PREFIX__-arrow {
+  border-width: 8px 0 8px 8px;
+  border-left-color: #333;
+  margin: 3px 0;
+  -webkit-transform-origin: 0% 50%;
+          transform-origin: 0% 50%;
+  right: -7px;
+}
+
+.__NAMESPACE_PREFIX__-tooltip[data-placement^='right'] > .__NAMESPACE_PREFIX__-arrow {
+  border-width: 8px 8px 8px 0;
+  border-right-color: #333;
+  margin: 3px 0;
+  -webkit-transform-origin: 7px 50%;
+          transform-origin: 7px 50%;
+  left: -7px;
+}
+
+.__NAMESPACE_PREFIX__-tooltip[data-interactive][data-state='visible'] {
+  pointer-events: auto;
+}
+
+.__NAMESPACE_PREFIX__-tooltip[data-inertia][data-state='visible'] {
+  -webkit-transition-timing-function: cubic-bezier(0.54, 1.5, 0.38, 1.11);
+          transition-timing-function: cubic-bezier(0.54, 1.5, 0.38, 1.11);
+}
+
+.__NAMESPACE_PREFIX__-arrow {
+  position: absolute;
+  border-color: transparent;
+  border-style: solid;
+}
+
+.__NAMESPACE_PREFIX__-content {
+  padding: 5px 9px;
+}
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,18 @@
+div.dtcontainer {
+  width: 102%;
+}
+
+div.dtcontainer div#dataTable_wrapper {
+  table-layout: fixed;
+  width: 98% !important;
+}
+
+div.eedtcontainer {
+  width: 102%;
+}
+
+div.eedtcontainer div#dataTable_wrapper {
+  table-layout: fixed;
+  width: 98% !important;
+}
+/*# sourceMappingURL=style.css.map */

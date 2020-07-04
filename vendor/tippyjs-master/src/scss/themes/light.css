@@ -1,0 +1,35 @@
+.__NAMESPACE_PREFIX__-tooltip.light-theme {
+  color: #26323d;
+  -webkit-box-shadow: 0 0 20px 4px rgba(154, 161, 177, 0.15), 0 4px 80px -8px rgba(36, 40, 47, 0.25), 0 4px 4px -2px rgba(91, 94, 105, 0.15);
+          box-shadow: 0 0 20px 4px rgba(154, 161, 177, 0.15), 0 4px 80px -8px rgba(36, 40, 47, 0.25), 0 4px 4px -2px rgba(91, 94, 105, 0.15);
+  background-color: white;
+}
+
+.__NAMESPACE_PREFIX__-tooltip.light-theme[data-placement^='top'] > .__NAMESPACE_PREFIX__-arrow {
+  border-width: 8px 8px 0;
+  border-top-color: white;
+}
+
+.__NAMESPACE_PREFIX__-tooltip.light-theme[data-placement^='bottom'] > .__NAMESPACE_PREFIX__-arrow {
+  border-width: 0 8px 8px;
+  border-bottom-color: white;
+}
+
+.__NAMESPACE_PREFIX__-tooltip.light-theme[data-placement^='left'] > .__NAMESPACE_PREFIX__-arrow {
+  border-width: 8px 0 8px 8px;
+  border-left-color: white;
+}
+
+.__NAMESPACE_PREFIX__-tooltip.light-theme[data-placement^='right'] > .__NAMESPACE_PREFIX__-arrow {
+  border-width: 8px 8px 8px 0;
+  border-right-color: white;
+}
+
+.__NAMESPACE_PREFIX__-tooltip.light-theme > .__NAMESPACE_PREFIX__-backdrop {
+  background-color: white;
+}
+
+.__NAMESPACE_PREFIX__-tooltip.light-theme > .__NAMESPACE_PREFIX__-svg-arrow {
+  fill: white;
+}
+/*# sourceMappingURL=light.css.map */

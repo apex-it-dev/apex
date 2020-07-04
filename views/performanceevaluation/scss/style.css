@@ -1,0 +1,13 @@
+div.dtcontainer {
+  width: 101%;
+}
+
+div.dtcontainer div#dataTable_wrapper {
+  table-layout: fixed;
+  width: 99% !important;
+}
+
+div#holidayListDataTable_filter label input {
+  width: 20vh;
+}
+/*# sourceMappingURL=style.css.map */

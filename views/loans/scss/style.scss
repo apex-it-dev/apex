@@ -1,0 +1,19 @@
+$diffPercentage: 2;
+
+@mixin getWidthPercent($diff, $operator) {
+  $percentMax: 1;
+  @if ($operator == '+') {
+    width: percentage($percentMax + ($diffPercentage/100));
+  } @else if($operator == '-') {
+    width: percentage($percentMax - ($diffPercentage/100)) !important;
+  }
+}
+
+div.dtcontainer {
+  @include getWidthPercent($diffPercentage, '+');
+  div#dataTable_wrapper {
+    table-layout: fixed;
+    @include getWidthPercent($diffPercentage, '-');
+  }
+}
+

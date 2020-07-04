@@ -1,0 +1,20 @@
+#!/bin/bash
+
+# Set working directory
+cd /opt/www/abacaregroup/www633x3/aba-prototype/aces-dev/
+
+# Remove changes from webmin
+git stash save --keep-index --include-untracked
+
+# Pull changes on git repository
+git pull origin master
+
+# Set permissions
+chown -R www-data:www-data .
+chmod -R 777 upload/
+chmod -R 777 img/
+
+# Move live items
+cp live/config.js js/config.js
+cp live/config.php inc/config.php
+cp live/database.php api/models/database.php

@@ -1,0 +1,102 @@
+.__NAMESPACE_PREFIX__-tooltip[data-placement^='top'] > .__NAMESPACE_PREFIX__-backdrop {
+  -webkit-transform-origin: 0% 25%;
+          transform-origin: 0% 25%;
+  border-radius: 40% 40% 0 0;
+}
+
+.__NAMESPACE_PREFIX__-tooltip[data-placement^='top'] > .__NAMESPACE_PREFIX__-backdrop[data-state='visible'] {
+  -webkit-transform: scale(1) translate(-50%, -55%);
+          transform: scale(1) translate(-50%, -55%);
+}
+
+.__NAMESPACE_PREFIX__-tooltip[data-placement^='top'] > .__NAMESPACE_PREFIX__-backdrop[data-state='hidden'] {
+  -webkit-transform: scale(0.2) translate(-50%, -45%);
+          transform: scale(0.2) translate(-50%, -45%);
+}
+
+.__NAMESPACE_PREFIX__-tooltip[data-placement^='bottom'] > .__NAMESPACE_PREFIX__-backdrop {
+  -webkit-transform-origin: 0% -50%;
+          transform-origin: 0% -50%;
+  border-radius: 0 0 30% 30%;
+}
+
+.__NAMESPACE_PREFIX__-tooltip[data-placement^='bottom'] > .__NAMESPACE_PREFIX__-backdrop[data-state='visible'] {
+  -webkit-transform: scale(1) translate(-50%, -45%);
+          transform: scale(1) translate(-50%, -45%);
+}
+
+.__NAMESPACE_PREFIX__-tooltip[data-placement^='bottom'] > .__NAMESPACE_PREFIX__-backdrop[data-state='hidden'] {
+  -webkit-transform: scale(0.2) translate(-50%, 0);
+          transform: scale(0.2) translate(-50%, 0);
+}
+
+.__NAMESPACE_PREFIX__-tooltip[data-placement^='left'] > .__NAMESPACE_PREFIX__-backdrop {
+  -webkit-transform-origin: 50% 0%;
+          transform-origin: 50% 0%;
+  border-radius: 50% 0 0 50%;
+}
+
+.__NAMESPACE_PREFIX__-tooltip[data-placement^='left'] > .__NAMESPACE_PREFIX__-backdrop[data-state='visible'] {
+  -webkit-transform: scale(1) translate(-50%, -50%);
+          transform: scale(1) translate(-50%, -50%);
+}
+
+.__NAMESPACE_PREFIX__-tooltip[data-placement^='left'] > .__NAMESPACE_PREFIX__-backdrop[data-state='hidden'] {
+  -webkit-transform: scale(0.2) translate(-75%, -50%);
+          transform: scale(0.2) translate(-75%, -50%);
+}
+
+.__NAMESPACE_PREFIX__-tooltip[data-placement^='right'] > .__NAMESPACE_PREFIX__-backdrop {
+  -webkit-transform-origin: -50% 0%;
+          transform-origin: -50% 0%;
+  border-radius: 0 50% 50% 0;
+}
+
+.__NAMESPACE_PREFIX__-tooltip[data-placement^='right'] > .__NAMESPACE_PREFIX__-backdrop[data-state='visible'] {
+  -webkit-transform: scale(1) translate(-50%, -50%);
+          transform: scale(1) translate(-50%, -50%);
+}
+
+.__NAMESPACE_PREFIX__-tooltip[data-placement^='right'] > .__NAMESPACE_PREFIX__-backdrop[data-state='hidden'] {
+  -webkit-transform: scale(0.2) translate(-25%, -50%);
+          transform: scale(0.2) translate(-25%, -50%);
+}
+
+.__NAMESPACE_PREFIX__-tooltip[data-animatefill] {
+  background-color: transparent !important;
+}
+
+.__NAMESPACE_PREFIX__-backdrop {
+  position: absolute;
+  background-color: #333;
+  border-radius: 50%;
+  width: calc(110% + 32px);
+  left: 50%;
+  top: 50%;
+  z-index: -1;
+  -webkit-transition: all cubic-bezier(0.46, 0.1, 0.52, 0.98);
+  transition: all cubic-bezier(0.46, 0.1, 0.52, 0.98);
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+.__NAMESPACE_PREFIX__-backdrop[data-state='hidden'] {
+  opacity: 0;
+}
+
+.__NAMESPACE_PREFIX__-backdrop::after {
+  content: '';
+  float: left;
+  padding-top: 100%;
+}
+
+.__NAMESPACE_PREFIX__-backdrop + .__NAMESPACE_PREFIX__-content {
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  will-change: opacity;
+}
+
+.__NAMESPACE_PREFIX__-backdrop + .__NAMESPACE_PREFIX__-content[data-state='hidden'] {
+  opacity: 0;
+}
+/*# sourceMappingURL=backdrop.css.map */

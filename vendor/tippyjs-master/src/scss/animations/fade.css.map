@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "AAGA,AAEI,6BAFyB,CAC1B,AAAA,cAAC,CAAe,MAAM,AAArB,EACC,AAAA,UAAC,CAAW,QAAQ,AAAnB,EAAqB;EACrB,OAAO,EAAE,CAAC;CACX",
+    "sources": [
+        "fade.scss",
+        "../_mixins.scss",
+        "../_vars.scss"
+    ],
+    "names": [],
+    "file": "fade.css"
+}

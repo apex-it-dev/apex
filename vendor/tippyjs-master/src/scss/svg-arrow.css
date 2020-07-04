@@ -1,0 +1,60 @@
+.__NAMESPACE_PREFIX__-tooltip[data-placement^='top'] > .__NAMESPACE_PREFIX__-svg-arrow {
+  -webkit-transform-origin: 50% 0%;
+          transform-origin: 50% 0%;
+  margin: 0 3px;
+  bottom: -6.5px;
+}
+
+.__NAMESPACE_PREFIX__-tooltip[data-placement^='top'] > .__NAMESPACE_PREFIX__-svg-arrow svg {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.__NAMESPACE_PREFIX__-tooltip[data-placement^='bottom'] > .__NAMESPACE_PREFIX__-svg-arrow {
+  -webkit-transform-origin: 50% 7px;
+          transform-origin: 50% 7px;
+  margin: 0 3px;
+  top: -7px;
+}
+
+.__NAMESPACE_PREFIX__-tooltip[data-placement^='left'] > .__NAMESPACE_PREFIX__-svg-arrow {
+  -webkit-transform-origin: 33.33333333% 50%;
+          transform-origin: 33.33333333% 50%;
+  margin: 3px 0;
+  right: -12px;
+}
+
+.__NAMESPACE_PREFIX__-tooltip[data-placement^='left'] > .__NAMESPACE_PREFIX__-svg-arrow svg {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.__NAMESPACE_PREFIX__-tooltip[data-placement^='right'] > .__NAMESPACE_PREFIX__-svg-arrow {
+  -webkit-transform-origin: 66.66666666% 50%;
+          transform-origin: 66.66666666% 50%;
+  margin: 3px 0;
+  left: -12px;
+}
+
+.__NAMESPACE_PREFIX__-tooltip[data-placement^='right'] > .__NAMESPACE_PREFIX__-svg-arrow svg {
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+
+.__NAMESPACE_PREFIX__-tooltip[data-interactive] > .__NAMESPACE_PREFIX__-svg-arrow path {
+  pointer-events: auto;
+}
+
+.__NAMESPACE_PREFIX__-svg-arrow {
+  position: absolute;
+  width: 18px;
+  height: 7px;
+  fill: #333;
+  pointer-events: none;
+}
+
+.__NAMESPACE_PREFIX__-svg-arrow svg {
+  position: absolute;
+  left: 0;
+}
+/*# sourceMappingURL=svg-arrow.css.map */
