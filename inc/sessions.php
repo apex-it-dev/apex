@@ -41,7 +41,7 @@
 		$domain = $urlsub[1];
 		unset($urlsub[1]);
 		$prevurl = base64_encode($headerprotocol.$_SERVER['HTTP_HOST'].'/'.$domain.implode('/',$urlsub));
-		header("Location: login/login.php");
+		header("Location: ".base_URL."login/login.php");
 		exit();
 	}
 ?>

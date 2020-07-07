@@ -9,10 +9,8 @@
 			    die("Connection failed: " . $cn->connect_error);
 			    exit();
 			} 
-
 			return $cn;
 		}
-
 		function closeDB(){
 			mysqli_close($cn);
 			unset($cn);
