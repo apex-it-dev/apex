@@ -1,6 +1,6 @@
 # APEX HRIS
 
-Human resource information system
+Human Resource information system
 
 Software Developers
 Lou Amaya
