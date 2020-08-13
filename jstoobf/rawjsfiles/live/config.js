@@ -1,5 +1,5 @@
 function getBaseURL(){
-	return "https://www.abacare.com/aces-dev/";
+	return "https://apexhris.com/";
   // return "http://box5891.temp.domains/~apexhris/apex/";
 }
 

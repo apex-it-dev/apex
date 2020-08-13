@@ -1,5 +1,5 @@
 function getBaseURL(){
-	return "http://localhost/aces-dev-git/";
+	return "http://localhost/apex/";
   // return "http://box5891.temp.domains/~apexhris/apex/";
 }
 

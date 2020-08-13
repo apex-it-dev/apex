@@ -1,4 +1,4 @@
- <?php 
+<?php 
   include_once("inc/includes.php");
   include_once("inc/sessions.php");
   // print_r($_SESSION);

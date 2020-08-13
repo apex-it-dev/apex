@@ -2,7 +2,7 @@
 	class Database{
 		private $cn = "";
 		function connect(){
-			$cn = new mysqli("localhost", "root", "", "aba_abvt_dev");
+			$cn = new mysqli("localhost", "root", "", "apex_db");
 			$cn->set_charset("utf8");
 
 			if ($cn->connect_error) {
