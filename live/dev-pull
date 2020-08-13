@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Set working directory
-cd /opt/www/abacaregroup/www633x3/aba-prototype/aces-dev/
+cd /home2/apexhris/public_html/apexhris/
 
 # Remove changes from webmin
 git stash save --keep-index --include-untracked
