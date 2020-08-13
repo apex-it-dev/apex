@@ -2,5 +2,5 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/user/public_html/apexhris
-    - /bin/cp -r * $DEPLOYPATH
-    #this is just a test message
+    - /bin/cp -R * $DEPLOYPATH
+   
